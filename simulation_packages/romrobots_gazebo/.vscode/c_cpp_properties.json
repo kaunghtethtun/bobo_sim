@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mr_robot/developer_ws/install/stm32f4_system_interface_gpio/include/**",
+        "/home/mr_robot/test_ws/install/bobo_hardware/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/mr_robot/ros2_ws/src/romrobots_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

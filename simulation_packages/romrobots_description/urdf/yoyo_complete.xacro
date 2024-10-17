@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="yoyo_standalone"
+       xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find romrobots_description)/urdf/yoyo.xacro" />
+  <xacro:include filename="yoyo_ros2_control.xacro" /> 
+  <xacro:include filename="yoyo_lidar.xacro" />
+  <xacro:robot/>
+</robot>
